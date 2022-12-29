@@ -1,4 +1,4 @@
-with open("input_1.txt", "r") as str_input:
+with open("input_1.txt", "r") as str_input: # Check that you are in the proper working directory, "day_1", so that the relative path to "input_1.txt" works as intended.
     input = str_input.read()
 
 totals = []
